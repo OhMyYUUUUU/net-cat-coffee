@@ -27,9 +27,9 @@ const Navbar = () => {
         borderRadius: "5px",
         boxShadow: "3px 5px 2px 0 gray",
       }}
-      className="d-flex justify-content-between align-items-center ms-5 me-5 mt-2"
+      className="d-flex justify-content-between align-items-center "
     >
-      <div className="d-flex flex-column align-items-center header fs-3">
+      <div className="d-flex flex-column align-items-center header fs-3 ">
         <p
           style={{
             fontFamily: "Anta",
@@ -50,16 +50,15 @@ const Navbar = () => {
         </span>
       </div>
       <div>
-          
-          <DNA
-            visible={true}
-            height="80"
-            width="80"
-            ariaLabel="dna-loading"
-            wrapperStyle={{}}
-            wrapperClass="dna-wrapper"
-          />
-        </div>
+        <DNA
+          visible={true}
+          height="80"
+          width="80"
+          ariaLabel="dna-loading"
+          wrapperStyle={{}}
+          wrapperClass="dna-wrapper"
+        />
+      </div>
 
       <div
         style={{
